@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia.ku | Wedding & Event Content Creator</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo-container">
+                <img src="logo.png" alt="Historia.ku Logo">
+            </a>
+            
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="nav-links" id="nav-links">
+                <a href="#about" onclick="closeMenu()">About</a>
+                <a href="#services" onclick="closeMenu()">Services</a>
+                <a href="#packages" onclick="closeMenu()">Packages</a>
+                <a href="#faq" onclick="closeMenu()">FAQ</a>
+                <a href="#contact" onclick="closeMenu()">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content reveal active">
+            <span class="hero-sub script-font">Wedding & Event Content Creator</span>
+            <h1>
+                <span>Capturing Authentic</span>
+                Moments That Matter
+            </h1>
+            <p style="margin-bottom: 30px; font-size: 1.1rem; opacity: 0.9;">
+                Real-time storytelling, emotional, and timeless.
+            </p>
+            <a href="https://wa.me/628987676882?text=Hello%20Historia.ku,%20I%20would%20like%20to%20book%20a%20session." target="_blank" class="btn">
+                Book Now <i class="fab fa-whatsapp" style="margin-left: 8px;"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Get To Know Us -->
+    <section id="about" class="section-padding about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img reveal">
+                    <img src="about.png" alt="Historia Wedding Details">
+                </div>
+                <div class="about-text reveal">
+                    <h4 class="script-font" style="font-size: 2rem; color: var(--accent-gold);">Our Story</h4>
+                    <h3 class="section-title">Get To Know Us</h3>
+                    <p>
+                        Historia.ku adalah Wedding Content Creator yang fokus menangkap momen autentik, emosional, dan real-time tanpa mengganggu jalannya acara. Kami percaya setiap detik memiliki ceritanya sendiri.
+                    </p>
+                    <br>
+                    <p>
+                        Dengan sentuhan sinematik dan editorial, kami menjadikan kenangan indah Anda abadi melalui lensa kamera yang penuh perasaan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section-padding services-section">
+        <div class="container">
+            <div class="text-center reveal">
+                <h2 class="section-title">Our Expertise</h2>
+                <span class="section-subtitle script-font">What We Do Best</span>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <i class="fas fa-rings-wedding service-icon"></i>
+                    <h4>Wedding Content</h4>
+                    <p>Akad Nikah & Resepsi coverage with real-time storytelling for Instagram and TikTok.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i class="fas fa-heart service-icon"></i>
+                    <h4>Engagement</h4>
+                    <p>Lamaran & Prewedding sessions capturing pure excitement of promise.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i class="fas fa-camera-retro service-icon"></i>
+                    <h4>Event Content</h4>
+                    <p>Wisuda, Birthday Parties, and Corporate Gathering documentation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wedding Packages (Update Tombol Download) -->
+    <section id="packages" class="section-padding packages-section">
+        <div class="container">
+            <div class="text-center reveal">
+                <h2 class="section-title">Wedding Packages</h2>
+                <span class="section-subtitle script-font">Choose Your Perfect Moment</span>
+                
+            
+
+                    
+                    <!-- UPDATE: Tombol Download PDF -->
+                    <!-- Atribut 'download' memaksa file terunduh, bukan dibuka -->
+                    <!-- Pastikan file pricelist.pdf ada di folder yang sama -->
+                    <a href="pricelist.pdf" download="Pricelist-HistoriaKu.pdf" class="btn btn-outline" style="margin-left: 10px;">
+                        <i class="fas fa-file-pdf"></i> Download Pricelist
+                    </a>
+                </div>
+            </div>
+
+            <div class="package-grid">
+                <div class="package-card reveal">
+                    <div class="package-header">
+                        <h3 class="package-name">Janji Manis</h3>
+                        <span class="package-price">350K</span>
+                        <p style="font-size: 0.8rem; color: #888;">Engagement / Lamaran</p>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Stand by 3 Hours</li>
+                            <li><i class="fas fa-check"></i> 20 Instagram Stories</li>
+                            <li><i class="fas fa-check"></i> 1 Short Highlight Video</li>
+                            <li><i class="fas fa-check"></i> All Raw Files</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="package-card reveal">
+                    <div class="package-header">
+                        <h3 class="package-name">Prolog Package</h3>
+                        <span class="package-price">400K</span>
+                        <p style="font-size: 0.8rem; color: #888;">Akad Only</p>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Stand by 4 Hours</li>
+                            <li><i class="fas fa-check"></i> 30 Instagram Stories</li>
+                            <li><i class="fas fa-check"></i> 1 Recap Video (60s)</li>
+                            <li><i class="fas fa-check"></i> 1 TikTok Content</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="package-card reveal">
+                    <div class="package-header">
+                        <h3 class="package-name">Epilog Package</h3>
+                        <span class="package-price">650K</span>
+                        <p style="font-size: 0.8rem; color: #888;">Akad & Resepsi</p>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Stand by 6 Hours</li>
+                            <li><i class="fas fa-check"></i> 40+ Instagram Stories</li>
+                            <li><i class="fas fa-check"></i> 2 Recap Videos</li>
+                            <li><i class="fas fa-check"></i> 2 TikTok Contents</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="package-card reveal" style="border-color: var(--text-primary); transform: scale(1.05);">
+                    <div class="package-header" style="background-color: var(--text-dark); color: #fff;">
+                        <h3 class="package-name" style="color: #fff;">Akhir Bahagia</h3>
+                        <span class="package-price" style="color: var(--accent-gold);">900K</span>
+                        <p style="font-size: 0.8rem; color: #ddd;">Full Day Coverage</p>
+                    </div>
+                    <div class="package-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Stand by 8 Hours</li>
+                            <li><i class="fas fa-check"></i> Full Instagram Stories Coverage</li>
+                            <li><i class="fas fa-check"></i> 3 Cinematic Recap Videos</li>
+                            <li><i class="fas fa-check"></i> 3 TikTok Viral Contents</li>
+                            <li><i class="fas fa-check"></i> Priority Editing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event & Janji Suci Package -->
+    <section class="section-padding mixed-packages">
+        <div class="container">
+            
+            <!-- Janji Suci Package -->
+            <div class="reveal">
+                <h3 class="text-center" style="margin-bottom: 40px; color: var(--text-dark); font-family: var(--font-brand);">Janji Suci Package</h3>
+                <div class="detail-grid">
+                    <div class="detail-card">
+                        <div class="card-header">
+                            <h4>Siraman</h4>
+                            <span class="price">430K</span>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Stand by 4 Jam</li>
+                            <li><i class="fas fa-check"></i> 5-7 Realtime Posting Story</li>
+                            <li><i class="fas fa-check"></i> Konten Dikirim 24 Jam</li>
+                            <li><i class="fas fa-check"></i> 1 Trend TikTok (Request)</li>
+                            <li><i class="fas fa-check"></i> 1 Video Highlight</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <div class="card-header">
+                            <h4>Pengajian</h4>
+                            <span class="price">430K</span>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Stand by 4 Jam</li>
+                            <li><i class="fas fa-check"></i> 5-7 Realtime Posting Story</li>
+                            <li><i class="fas fa-check"></i> Konten Dikirim 24 Jam</li>
+                            <li><i class="fas fa-check"></i> 1 Trend TikTok (Request)</li>
+                            <li><i class="fas fa-check"></i> 1 Video Highlight</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <div class="card-header">
+                            <h4>Sunatan</h4>
+                            <span class="price">430K</span>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Stand by 4 Jam</li>
+                            <li><i class="fas fa-check"></i> 5-7 Realtime Posting Story</li>
+                            <li><i class="fas fa-check"></i> Konten Dikirim 24 Jam</li>
+                            <li><i class="fas fa-check"></i> 1 Trend TikTok (Request)</li>
+                            <li><i class="fas fa-check"></i> 1 Video Highlight</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Event Package -->
+            <div class="reveal" style="margin-top: 80px;">
+                <h3 class="text-center" style="margin-bottom: 40px; color: var(--text-dark); font-family: var(--font-brand);">Event Package</h3>
+                <div class="detail-grid">
+                    <div class="detail-card">
+                        <div class="card-header">
+                            <h4>Wisuda</h4>
+                            <span class="price">300K</span>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Stand by 2 Jam</li>
+                            <li><i class="fas fa-check"></i> 5 Realtime Posting Story</li>
+                            <li><i class="fas fa-check"></i> Konten Dikirim 24 Jam</li>
+                            <li><i class="fas fa-check"></i> 1 Trend TikTok (Request)</li>
+                            <li><i class="fas fa-check"></i> 1 Video Highlight</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <div class="card-header">
+                            <h4>Birthday Party</h4>
+                            <span class="price">400K</span>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Stand by 4 Jam</li>
+                            <li><i class="fas fa-check"></i> 5 Realtime Posting Story</li>
+                            <li><i class="fas fa-check"></i> Konten Dikirim 24 Jam</li>
+                            <li><i class="fas fa-check"></i> 1 Trend TikTok (Request)</li>
+                            <li><i class="fas fa-check"></i> 1 Video Highlight</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <div class="card-header">
+                            <h4>Gathering</h4>
+                            <span class="price">450K</span>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Stand by 4 Jam</li>
+                            <li><i class="fas fa-check"></i> 7 Realtime Posting Story</li>
+                            <li><i class="fas fa-check"></i> Konten Dikirim 24 Jam</li>
+                            <li><i class="fas fa-check"></i> 3 Trend TikTok (Request)</li>
+                            <li><i class="fas fa-check"></i> 1 Video Highlight</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FAQ & Terms -->
+    <section id="faq" class="section-padding faq-conditions">
+        <div class="container">
+            <div class="grid-2-col">
+                <div class="reveal">
+                    <h2 class="section-title">F.A.Q</h2>
+                    <br>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Apa itu wedding content creator?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Wedding content creator adalah profesional yang mendokumentasikan acara pernikahan Anda secara real-time, khususnya untuk konten media sosial (Instagram Story, TikTok, Reels), berbeda dengan fotografer/videographer tradisional yang fokus pada output akhir.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Apakah bisa request konsep?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Tentu! Kami sangat terbuka dengan diskusi konsep. Silakan share referensi atau moodboard yang Anda inginkan.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Area layanan?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Kami melayani area Cirebon, Indramayu, dan Subang.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Pengiriman konten berapa lama?
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Konten cepat (Story/Reels) dikirim di hari H atau H+1. Sedangkan highlight full biasanya H+2 sampai H+3.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reveal">
+                    <h2 class="section-title">Term & Conditions</h2>
+                    <br>
+                    <ul class="tc-list">
+                        <li>
+                            <strong>DP 50%</strong> - Booking fee untuk mengamankan tanggal acara Anda.
+                        </li>
+                        <li>
+                            <strong>Pelunasan H-1</strong> - Pembayaran sisa dilakukan sehari sebelum acara berlangsung.
+                        </li>
+                        <li>
+                            <strong>Konten untuk Portfolio</strong> - Kami berhak menggunakan hasil dokumentasi untuk keperluan promosi media sosial (kecuali ada perjanjian khusus).
+                        </li>
+                        <li>
+                            <strong>Revisi Minor</strong> - Revisi video hanya diperbolehkan 1x dengan durasi maksimal H+7 setelah file dikirim.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (Update Tombol Download juga disini opsional, tapi kita fokus di packages saja sesuai request, atau tambahkan disini juga?) -->
+    <!-- Mari tambahkan tombol download disini juga agar mudah dijangkau user -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-content reveal">
+            <h2 class="section-title" style="color: #fff;">Contact Us</h2>
+            <p style="color: rgba(255,255,255,0.7);">Mari buat kenangan indah bersama.</p>
+            
+            <!-- Tombol Download PDF juga disini -->
+            <div style="margin-top: 20px; margin-bottom: 40px;">
+                <a href="pricelist.pdf" download="Pricelist-HistoriaKu.pdf" class="btn btn-outline" style="border-color: #fff; color: #fff;">
+                    <i class="fas fa-download"></i> Download Pricelist
+                </a>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <a href="https://www.instagram.com/historiaku?igsh=Njl6amZiZjVwaHE2" target="_blank" style="color: white;">
+                        <i class="fab fa-instagram"></i>
+                        <span>@historiaku</span>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://www.tiktok.com/@historia.ku?_r=1&_t=ZS-933MotxNYf2" target="_blank" style="color: white;">
+                        <i class="fab fa-tiktok"></i>
+                        <span>@historia.ku</span>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://wa.me/628987676882" target="_blank" style="color: white;">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>+62 898-7676-882</span>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="mailto:historiakucrb@gmail.com" style="color: white;">
+                        <i class="fas fa-envelope"></i>
+                        <span>historiakucrb@gmail.com</span>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Cirebon | Indramayu | Subang</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing Section -->
+    <footer>
+        <div class="container reveal">
+            <p class="closing-text">Hope To Work Soon With You</p>
+            <div class="copyright">
+                &copy; 2023 Historia.ku. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
