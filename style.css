@@ -155,13 +155,14 @@ header {
     height: 100%;
 }
 
+/* Styling Logo - UKURAN DIPERBESAR */
 .logo-container {
     display: flex;
     align-items: center;
 }
 
 .logo-container img {
-    height: 50px; /* Tinggi logo */
+    height: 70px; /* Sebelumnya 50px, sekarang lebih besar */
     width: auto;
     object-fit: contain;
 }
@@ -378,8 +379,7 @@ header {
     margin-top: 5px;
 }
 
-/* EVENT & JANJI SUCI (NEW STYLE) */
-/* Grid untuk kartu detail */
+/* EVENT & JANJI SUCI */
 .detail-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
